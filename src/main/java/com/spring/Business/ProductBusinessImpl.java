@@ -8,9 +8,7 @@ import com.spring.Pojo.Product;
 public class ProductBusinessImpl implements ProductBusiness {
 
 	private ProductDao productDao;
-	
-	
-	
+
 	public ProductDao getProductDao() {
 		return productDao;
 	}

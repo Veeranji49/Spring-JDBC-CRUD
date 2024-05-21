@@ -6,11 +6,12 @@ public class Product {
 	private String name;
 	private double cost;
 	private String location;
-	
-	//PDC
-	public Product() {}
 
-	//PPC
+	// PDC
+	public Product() {
+	}
+
+	// PPC
 	public Product(int id, String name, double cost, String location) {
 		super();
 		this.id = id;
@@ -19,7 +20,7 @@ public class Product {
 		this.location = location;
 	}
 
-	//PSM & PGM
+	// PSM & PGM
 	public int getId() {
 		return id;
 	}
@@ -52,12 +53,11 @@ public class Product {
 		this.location = location;
 	}
 
-	//toString method
-	
+	// toString method
+
 	@Override
 	public String toString() {
 		return "Product [id=" + id + ", name=" + name + ", cost=" + cost + ", location=" + location + "]";
 	}
-	
-	
+
 }
